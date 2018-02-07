@@ -22,4 +22,6 @@ galaxy_info:
 # dependencies: []
 dependencies:
   - FGtatsuro.python-requirements
-  - FGtatsuro.virtualbox
+  - src: git+ssh://git@github.com/Publish-Interactive/ansible-virtualbox.git
+    version: "3ecf57f272fcdce3dabad3455240aa30828e140c"
+    name: virtualbox
